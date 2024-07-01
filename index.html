@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo HTML e CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .propriedade {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entendendo HTML e CSS</h1>
+    </header>
+    
+    <main>
+        <section id="tag-p">
+            <h2>Tag &lt;p&gt;</h2>
+            <p>A tag <code>&lt;p&gt;</code> é usada para criar parágrafos de texto em um documento HTML.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero id turpis accumsan aliquet.</p>
+            <p>Esta tag é essencial para estruturar e organizar blocos de texto em uma página web.</p>
+        </section>
+
+        <section id="tag-h1">
+            <h2>Tag &lt;h1&gt;</h2>
+            <p>A tag <code>&lt;h1&gt;</code> define o título principal de uma página HTML.</p>
+            <h1>Título Principal</h1>
+            <p>Neste exemplo, <code>&lt;h1&gt;</code> está sendo usado para definir o título principal da página. É recomendado usar <code>&lt;h1&gt;</code> apenas uma vez por página para indicar o título principal e melhorar a acessibilidade.</p>
+        </section>
+
+        <section id="tag-img">
+            <h2>Tag &lt;img&gt;</h2>
+            <p>A tag <code>&lt;img&gt;</code> é usada para inserir imagens em um documento HTML.</p>
+            <img src="exemplo.jpg" alt="Exemplo de imagem">
+            <p>O exemplo acima mostra como você pode usar a tag <code>&lt;img&gt;</code> para exibir uma imagem. O atributo <code>src</code> especifica o caminho para a imagem, enquanto o atributo <code>alt</code> fornece um texto alternativo que é exibido se a imagem não puder ser carregada.</p>
+        </section>
+
+        <section id="css-properties">
+            <h2>Propriedades CSS</h2>
+            
+            <div class="propriedade">
+                <h3>Centralização</h3>
+                <p>A propriedade <code>text-align</code> em CSS pode ser usada para centralizar texto ou outros elementos dentro de seu contêiner.</p>
+                <p>Exemplo:</p>
+                <pre>
+                    <code>
+                        .centralizado {
+                            text-align: center;
+                        }
+                    </code>
+                </pre>
+            </div>
+
+            <div class="propriedade">
+                <h3>Cor</h3>
+                <p>A propriedade <code>color</code> em CSS define a cor do texto dentro de um elemento.</p>
+                <p>Exemplo:</p>
+                <pre>
+                    <code>
+                        .texto-vermelho {
+                            color: red;
+                        }
+                    </code>
+                </pre>
+            </div>
+
+            <div class="propriedade">
+                <h3>Tamanho</h3>
+                <p>A propriedade <code>font-size</code> em CSS define o tamanho da fonte de texto.</p>
+                <p>Exemplo:</p>
+                <pre>
+                    <code>
+                        .grande {
+                            font-size: 24px;
+                        }
+                    </code>
+                </pre>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Seu Nome</p>
+    </footer>
+</body>
+</html>
